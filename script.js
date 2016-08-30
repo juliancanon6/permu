@@ -53,7 +53,7 @@ var c=0;
 				console.log("cv",cesarvec);
 			}else{
 				a=Number(cesar[k])+Number(nc);
-				cesarvec[l]=String(a);
+				cesarvec[l]=Number(cesar[k])+Number(nc);
 				k=k+1;	
 				if(k==nnc){
 					k=0;

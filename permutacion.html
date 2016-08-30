@@ -1,0 +1,20 @@
+		for(var l = 0; l < texto.length; l++){
+			
+		//for(var l = 0; l < cesar.length; l++){
+			//for(var k = 0; k < texto.length; k++){
+			aux[l]=texto.charAt(cesar[pos+k]);
+			pos=pos+1;
+			
+			if(pos==cesar.length && ban2==0){
+				console.log("pos",pos);
+				console.log("ce",cesar.length);
+				console.log("txt",aux);
+				pos=0;
+				k=cesar.length;
+				ban2=1;
+			}
+			if(ban2==1){
+				k=k+1;
+			}
+			
+		}

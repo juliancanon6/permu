@@ -66,7 +66,7 @@ var c=0;
 		console.log("c",cesarvec);
 
 		for(var l = 0; l < texto.length; l++){
-			aux[cesarvec[l]]=texto.charAt[l];
+			aux[cesarvec[l]]=texto.charAt(l);
 		}
 		
 		texto=aux;
